@@ -1,24 +1,30 @@
 # Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models
-This is the official repository for the paper **"Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models"** .
+
+
+This is the official repository for the paper **"Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models"**.
+
 ### Feixiang Liu Xiaohui Li, Wenhui Gao, Jiaqing Xiong, Guanchong Niu and Chung Shue Chen*
 
 #### Xidian University，China
 
-### Method Overview
+### Framework Architecture
 
-Our approach fuses multimodal data using a Temporally Aware Cross-Attention (TACA) module, conditioned by a Mamba (SSM) based GPS prior.
+Our model introduces a novel fusion module, knowledge transfer, and a foundation model to significantly improve performance over existing approaches. The architecture is built on a teacher-student design with dedicated modules for temporal modeling and multimodal fusion.
 
-| Experimental Setup | Proposed Fusion Framework |
+| Conceptual Comparison | Detailed Framework |
 | :---: | :---: |
-| ![Experimental Setup](photos/fig2.png) | ![TACA Framework](photos/fig5.png) |
-| *Figure 2: Data collection platform.* | *Figure 5: The TACA fusion module.* |
+| ![Comparison with existing methods](photos/fig1.png) | ![Detailed Framework Overview](photos/fig4.png) |
+| *Figure 1: Comparison with previous models.* | *Figure 4: Overview of the proposed framework.* |
 
-### Dataset Scenarios
+### Method & Setup
 
-Experiments are conducted on the DeepSense 6G dataset, covering diverse V2I scenarios.
+Our approach fuses multimodal data using a Temporally Aware Cross-Attention (TACA) module, conditioned by a Mamba (SSM) based GPS prior. Experiments are conducted on the DeepSense 6G dataset.
 
-![Dataset Scenarios](photos/fig6.png)
-*Figure 6: Sample single-candidate, multi-candidate, day, and night scenarios.*
+| Experimental Setup | Proposed Fusion Module | Dataset Scenarios |
+| :---: | :---: | :---: |
+| ![Experimental Setup](photos/fig2.png) | ![TACA Framework](photos/fig5.png) | ![Dataset Scenarios](photos/fig6.png) |
+| *Figure 2: Data collection platform.* | *Figure 5: The TACA fusion module.* | *Figure 6: Sample V2I scenarios.* |
+
 
 ---
 
@@ -60,3 +66,5 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 ## Code
 
 Code coming soon.
+
+
