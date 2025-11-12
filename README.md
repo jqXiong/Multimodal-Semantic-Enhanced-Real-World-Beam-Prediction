@@ -26,7 +26,7 @@ Our model introduces a novel fusion module, knowledge transfer, and a foundation
 
 Our approach fuses multimodal data using a Temporally Aware Cross-Attention (TACA) module, conditioned by a Mamba (SSM) based GPS prior. Experiments are conducted on the DeepSense 6G dataset.
 
-| Experimental Setup  Dataset Scenarios |
+| Experimental Setup | Dataset Scenarios |
 | :---: | :---: |
 | ![Experimental Setup](photos/fig2.png) | ![Dataset Scenarios](photos/fig6.png) |
 | *Figure 2: Data collection platform.* | *Figure 6: Sample V2I scenarios.* |
