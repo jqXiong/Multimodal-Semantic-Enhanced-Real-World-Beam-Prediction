@@ -24,7 +24,7 @@ Our model introduces a novel fusion module, knowledge transfer, and a foundation
 
 ### Setup
 
-Our approach fuses multimodal data using a Temporally Aware Cross-Attention (TACA) module, conditioned by a Mamba (SSM) based GPS prior. Experiments are conducted on the DeepSense 6G dataset.
+Experiments are conducted on the DeepSense 6G dataset.
 
 | Experimental Setup | Dataset Scenarios |
 | :---: | :---: |
@@ -41,10 +41,10 @@ Our approach fuses multimodal data using a Temporally Aware Cross-Attention (TAC
 Our method ("Ours") consistently outperforms all baselines in Top-k accuracy across eight different real-world scenarios.
 
 ![Results Table 1](photos/tab1.png)
-*Table II: Performance on Scenarios 1-4.*
+*Table: Performance on Scenarios 1-4.*
 
 ![Results Table 2](photos/tab2.png)
-*Table III: Performance on Scenarios 5-8.*
+*Table: Performance on Scenarios 5-8.*
 
 ### Task-Specific Performance
 
@@ -65,7 +65,7 @@ The model shows state-of-the-art performance when scenarios are grouped into mor
 Confusion matrices show that prediction errors are overwhelmingly concentrated on beams adjacent to the ground truth, indicating high reliability.
 
 ![Confusion Matrices](photos/fig12.png)
-*Figure 12: Row-normalized confusion matrices for beam prediction across the four tasks.*
+*Figure: Row-normalized confusion matrices for beam prediction across the four tasks.*
 
 ---
 
