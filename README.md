@@ -8,13 +8,9 @@ This is the official repository for the paper **"Multimodal Semantic-Enhanced Re
 #### Xidian University，China
 #### Nokia Bell Labs，France
 
+### Framework Architecture
 
 Our model introduces a novel fusion module, knowledge transfer, and a foundation model to significantly improve performance over existing approaches. The architecture is built on a teacher-student design with dedicated modules for temporal modeling and multimodal fusion.
-
-<p align="center">
-  <img src="photos/fig1.png" alt="Comparison with existing methods" width="720"><br>
-  <em>Figure 1: Comparison with previous models.</em>
-</p>
 
 <p align="center">
   <img src="photos/fig4.png" alt="Detailed Framework Overview" width="720"><br>
