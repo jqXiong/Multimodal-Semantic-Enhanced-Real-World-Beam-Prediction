@@ -6,17 +6,20 @@ This is the official repository for the paper **"Multimodal Semantic-Enhanced Re
 ### Feixiang Liu, Xiaohui Li, Wenhui Gao, Jiaqing Xiong, Guanchong Niu and Chung Shue Chen
 
 #### Xidian University，China
-#### Nokia Bell Labs
+#### Nokia Bell Labs，France
 
 
 ### Framework Architecture
 
 Our model introduces a novel fusion module, knowledge transfer, and a foundation model to significantly improve performance over existing approaches. The architecture is built on a teacher-student design with dedicated modules for temporal modeling and multimodal fusion.
 
-| Conceptual Comparison | Detailed Framework |
-| :---: | :---: |
-| ![Comparison with existing methods](photos/fig1.png) | ![Detailed Framework Overview](photos/fig4.png) |
-| *Figure 1: Comparison with previous models.* | *Figure 4: Overview of the proposed framework.* |
+![Comparison with existing methods](photos/fig1.png)
+
+*Figure 1: Comparison with previous models.*
+
+![Detailed Framework Overview](photos/fig4.png)
+
+*Figure 4: Overview of the proposed framework.*
 
 ### Method & Setup
 
