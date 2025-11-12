@@ -29,12 +29,12 @@ Our approach fuses multimodal data using a Temporally Aware Cross-Attention (TAC
 | Experimental Setup | Dataset Scenarios |
 | :---: | :---: |
 | ![Experimental Setup](photos/fig2.png) | ![Dataset Scenarios](photos/fig6.png) |
-| *Figure 2: Data collection platform.* | *Figure 6: Sample V2I scenarios.* |
+| *Figure: Data collection platform.* | *Figure: Sample V2I scenarios.* |
 
 
 ---
 
-## Results
+## Experimental Results
 
 ### Overall Performance Across Scenarios
 
