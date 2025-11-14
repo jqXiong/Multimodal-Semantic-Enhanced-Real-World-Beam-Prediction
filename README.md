@@ -53,12 +53,12 @@ The model shows state-of-the-art performance when scenarios are grouped into mor
 | Single-Target Task | Multi-Target Task |
 | :---: | :---: |
 | ![Single-Target Task Results](photos/fig7.png) | ![Multi-Target Task Results](photos/fig8.png) |
-| *Figure 7: Top-k accuracy (Scenarios 5-8).* | *Figure 8: Top-k accuracy (Scenarios 1-4).* |
+| *Figure: Top-k accuracy (Scenarios 5-8).* | *Figure: Top-k accuracy (Scenarios 1-4).* |
 
 | Nighttime Task | Daytime Task |
 | :---: | :---: |
 | ![Nighttime Task Results](photos/fig10.png) | ![Daytime Task Results](photos/fig11.png) |
-| *Figure 10: Top-k accuracy (Scenarios 2, 4, 5).* | *Figure 11: Top-k accuracy (Scenarios 1, 3, 6, 7, 8).* |
+| *Figure: Top-k accuracy (Scenarios 2, 4, 5).* | *Figure: Top-k accuracy (Scenarios 1, 3, 6, 7, 8).* |
 
 ### Error Analysis
 
