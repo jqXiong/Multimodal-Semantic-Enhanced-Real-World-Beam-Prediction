@@ -71,19 +71,19 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 
 ## Tables
 
-![Table 1](tab1.png)
-![Table 2](tab2.png)
-![Table 3](tab3.png)
-![Table 4](tab4.png)
-![Table 5](tab5.png)
+![Table 1](photos/tab1.png)
+![Table 2](photos/tab2.png)
+![Table 3](photos/tab3.png)
+![Table 4](photos/tab4.png)
+![Table 5](photos/tab5.png)
 
 ## Extra Figures / Tables
 
-![Extra Fig. 1](xfig1.png)
-![Extra Table 3](xtab3.png)
-![Extra Table r](xtabr.png)
-![Extra Table XII](xtabxii.png)
-![Extra Table XIII](xtabxiii.png)
+![Extra Fig. 1](photos/xfig1.png)
+![Extra Table 3](photos/xtab3.png)
+![Extra Table r](photos/xtabr.png)
+![Extra Table XII](photos/xtabxii.png)
+![Extra Table XIII](photos/xtabxiii.png)
 
 ## Code
 
