@@ -40,10 +40,10 @@ Experiments are conducted on the DeepSense 6G dataset.
 
 Our method ("Ours") consistently outperforms all baselines in Top-k accuracy across eight different real-world scenarios.
 
-![Results Table 1](photos/s1-s4.png)
+![Results Table 1](photos/s1-s4.jpg)
 *Table: Performance on Scenarios 1-4.*
 
-![Results Table 2](photos/s5-s8.png)
+![Results Table 2](photos/s5-s8.jpg)
 *Table: Performance on Scenarios 5-8.*
 
 ### Task-Specific Performance
