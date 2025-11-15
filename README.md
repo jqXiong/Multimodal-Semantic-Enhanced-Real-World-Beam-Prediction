@@ -83,11 +83,15 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 
 ### Why our combination is optimal？
 
-*Table: Performance on Scenarios 1-4.*
+### Backbone Comparison
 
-*Table: Performance on Scenarios 1-4.*
-
-*Table: Performance on Scenarios 1-4.*
+<p align="center">
+  <img src="swin.png"  alt="Swin"  width="260" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="res.png"   alt="ResNet" width="260" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="mamba.png" alt="Mamba" width="260" />
+</p>
 
 
 ### Protocol
