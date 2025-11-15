@@ -69,11 +69,11 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 
 
 ### TCN Experiments
-(photos/TCN.jpg)
-*Table: Performance on Scenarios 1-4.*
+![Results Table 3](photos/TCN.jpg)
+*Table: Temporal ablation on Task 2.*
 
-(photos/TCN_1.jpg)
-*Table: Performance on Scenarios 1-4.*
+![Results Table 4](photos/TCN_x.jpg)
+*Table: Sensitivity of threshold initialization On Task 2.*
 
 ### Why our combination is optimal？
 
