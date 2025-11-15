@@ -84,19 +84,19 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 ### Why our combination is optimal？
 
 <p align="center">
-  <img src="photos/swin.png" alt="Swin" width="280" />
+  <img src="photos/swin.png" alt="Swin" width="80%" />
   <br>
   <em>Swin</em>
 </p>
 
 <p align="center">
-  <img src="photos/res.png" alt="Res" width="280" />
+  <img src="photos/res.png" alt="Res" width="80%" />
   <br>
   <em>Res</em>
 </p>
 
 <p align="center">
-  <img src="photos/mamba.png" alt="Mamba" width="280" />
+  <img src="photos/mamba.png" alt="Mamba" width="80%" />
   <br>
   <em>Mamba</em>
 </p>
