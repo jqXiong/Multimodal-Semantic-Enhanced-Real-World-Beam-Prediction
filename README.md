@@ -71,8 +71,8 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 ### TCN Experiments
 
 <p align="center">
-  <img src="photos/TCN.jpg" alt="Results Table 3" width="350" />
-  <img src="photos/TCN_x.jpg" alt="Results Table 4" width="350" />
+  <img src="photos/TCN.jpg" alt="Results Table 3" width="400" />
+  <img src="photos/TCN_x.jpg" alt="Results Table 4" width="400" />
 </p>
 
 <p align="center">
