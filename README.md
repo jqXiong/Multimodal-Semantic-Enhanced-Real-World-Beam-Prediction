@@ -86,11 +86,11 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 ### Backbone Comparison
 
 <p align="center">
-  <img src="swin.png"  alt="Swin"  width="260" />
+  <img src="photos/swin.png"  alt="Swin"  width="260" />
   &nbsp;&nbsp;&nbsp;
-  <img src="res.png"   alt="ResNet" width="260" />
+  <img src="photos/res.png"   alt="ResNet" width="260" />
   &nbsp;&nbsp;&nbsp;
-  <img src="mamba.png" alt="Mamba" width="260" />
+  <img src="photos/mamba.png" alt="Mamba" width="260" />
 </p>
 
 
