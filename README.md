@@ -67,6 +67,11 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 ![Confusion Matrices](photos/CONFUSE.png)
 *Figure: Row-normalized confusion matrices for beam prediction across the four tasks.*
 
+### Protocol
+![Protocol](photos/Protocols.png)
+
+*MSET-Assisted Beam Search and Tracking Protocol.*
+
 ---
 
 ## Code
