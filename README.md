@@ -122,7 +122,7 @@ On the GPS stream, we compare a **Mamba-style selective state-space module (ours
 
 ### Knowledge distillation experiment
 
-We embed MSET into the 5G-Advanced beam management procedure. At each decision step, MSET predicts class probabilities and outputs a ranked Top-K list of candidate beams. The base station then probes only these K beams instead of sweeping the entire beam codebook, so the MAC signaling remains standard and MSET acts as a learned prior that narrows the search space. With K typically between 3 and 5, the probing load is reduced by roughly three to five times compared with exhaustive sweeping, while maintaining link quality.
+Beam prediction depends on spatially localized cues rather than only final class logits, so we use a mask-weighted, tokenwise KL loss instead of a purely class-level objective. The Swin-Transformer teacher provides rich multi-scale token features, and token-level distillation lets the student mimic this spatial structure, with SAM-derived weights focusing supervision on propagation-relevant regions and down-weighting background tokens. We compare our loss against two classical baselines under the same teacher, student, temperature, and training setup on Task 1:
 
 <p align="center">
   <img src="photos/KD.png" alt="KD" width="80%" />
@@ -131,6 +131,8 @@ We embed MSET into the 5G-Advanced beam management procedure. At each decision s
 </p>
 
 ### Protocol
+
+We embed MSET into the 5G-Advanced beam management procedure. At each decision step, MSET predicts class probabilities and outputs a ranked Top-K list of candidate beams. The base station then probes only these K beams instead of sweeping the entire beam codebook, so the MAC signaling remains standard and MSET acts as a learned prior that narrows the search space. With K typically between 3 and 5, the probing load is reduced by roughly three to five times compared with exhaustive sweeping, while maintaining link quality.
 
 <p align="center">
   <img src="photos/Protocols.png" alt="Protocol." width="720"><br>
