@@ -92,6 +92,8 @@ We further study the sensitivity of the volatility-driven gate to the initializa
 </p>
 
 ### Why our combination is optimal？
+**Visual teacher ablation.**  
+We compare **Swin-B**, **DeiT-B**, **ViT-B/16**, and **RegNetY-8G** as teachers under the same student and distillation settings. On Task 3 (night), **Swin-B** achieves the highest Top-1/Top-5 accuracy and the lowest power loss, so we use Swin-B as the visual teacher in MSET.
 
 <p align="center">
   <img src="photos/swin.png" alt="Swin" width="80%" />
@@ -99,11 +101,18 @@ We further study the sensitivity of the volatility-driven gate to the initializa
   <em>Swin</em>
 </p>
 
+**Student backbone ablation.**  
+For the student, we compare **ResNet-18 (ours)** with **MobileViT-S** and **EfficientNet-B0**. With Swin-B fixed as teacher, ResNet-18 attains the best Top-1/Top-5 accuracy, the lowest power loss, and about **2× lower latency** (2.86 ms) than the lightweight transformer and EfficientNet baselines, making it a strong deployment backbone under millisecond-level constraints.
+
+
 <p align="center">
   <img src="photos/res.png" alt="Res" width="80%" />
   <br>
   <em>Res</em>
 </p>
+
+**Temporal module ablation.**  
+On the GPS stream, we compare a **Mamba-style selective state-space module (ours)** with **GRU** and **LSTM**. Under the same visual backbone and distillation, the SSM yields higher Top-1/Top-5 accuracy and lower power loss, while keeping latency comparable or lower. It also handles irregular GPS sampling more stably than recurrent baselines, which is crucial for our asynchronous deployment regime.
 
 <p align="center">
   <img src="photos/mamba.png" alt="Mamba" width="80%" />
