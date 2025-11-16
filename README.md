@@ -142,7 +142,7 @@ Beam prediction depends on spatially localized cues rather than only final class
 
 ### Protocol
 
-We embed MSET into the 5G-Advanced beam management procedure. At each decision step, MSET predicts class probabilities and outputs a ranked Top-K list of candidate beams. The base station then probes only these K beams instead of sweeping the entire beam codebook, so the MAC signaling remains standard and MSET acts as a learned prior that narrows the search space. With K typically between 3 and 5, the probing load is reduced by roughly three to five times compared with exhaustive sweeping, while maintaining link quality.
+We embed MSET into the 5G-Advanced beam management procedure. At each decision step, MSET predicts class probabilities and outputs a ranked Top-K list of candidate beams. The base station then probes only these K beams instead of sweeping the entire beam codebook.
 
 <p align="center">
   <img src="photos/Protocols.png" alt="Protocol." width="720"><br>
