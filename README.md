@@ -118,6 +118,5 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 
 ## Code
 
-Code coming soon.
-
+Our code is coming soon...
 
