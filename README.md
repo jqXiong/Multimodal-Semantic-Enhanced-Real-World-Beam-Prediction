@@ -92,23 +92,23 @@ We further study the sensitivity of the volatility-driven gate to the initializa
 </p>
 
 ### Why our combination is optimal？
-**Visual teacher ablation.**  
+**VFM ablation.**  
 We compare **Swin-B**, **DeiT-B**, **ViT-B/16**, and **RegNetY-8G** as teachers under the same student and distillation settings. On Task 3 (night), **Swin-B** achieves the highest Top-1/Top-5 accuracy and the lowest power loss, so we use Swin-B as the visual teacher in MSET.
 
 <p align="center">
   <img src="photos/swin.png" alt="Swin" width="80%" />
   <br>
-  <em>Swin</em>
+  <em>VFM ablation</em>
 </p>
 
-**Student backbone ablation.**  
+**Student ablation.**  
 For the student, we compare **ResNet-18 (ours)** with **MobileViT-S** and **EfficientNet-B0**. With Swin-B fixed as teacher, ResNet-18 attains the best Top-1/Top-5 accuracy, the lowest power loss, and about **2× lower latency** (2.86 ms) than the lightweight transformer and EfficientNet baselines, making it a strong deployment backbone under millisecond-level constraints.
 
 
 <p align="center">
   <img src="photos/res.png" alt="Res" width="80%" />
   <br>
-  <em>Res</em>
+  <em>Student ablation</em>
 </p>
 
 **Temporal module ablation.**  
@@ -117,10 +117,14 @@ On the GPS stream, we compare a **Mamba-style selective state-space module (ours
 <p align="center">
   <img src="photos/mamba.png" alt="Mamba" width="80%" />
   <br>
-  <em>Mamba</em>
+  <em>Temporal module ablation</em>
 </p>
 
 ### Knowledge distillation experiment
+
+Beam prediction depends on spatially localized cues rather than only final class logits, so we use a **mask-weighted, tokenwise KL loss** instead of purely class-level objectives. A Swin-Transformer teacher provides rich multi-scale token features; token-level distillation lets the student mimic this spatial structure, while **SAM-derived weights** focus supervision on propagation-relevant regions and down-weight background tokens.
+
+We compare our loss against two classical baselines under the same teacher, student, temperature, and training setup on Task 1:
 
 <p align="center">
   <img src="photos/KD.png" alt="KD" width="80%" />
