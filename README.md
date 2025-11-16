@@ -8,6 +8,8 @@ This is the official repository for the paper **"Multimodal Semantic-Enhanced Re
 #### Xidian University，China
 #### Nokia Bell Labs，France
 
+---
+
 ### Framework Architecture
 
 MSET is a lightweight, efficient multimodal beam prediction framework tailored for real-world scenarios. It combines visual semantics, temporal modeling, and positional priors to achieve robust performance in complex and dynamic V2I environments.
