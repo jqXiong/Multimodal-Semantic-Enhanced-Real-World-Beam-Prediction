@@ -79,7 +79,7 @@ To isolate the effect of the depth gate, we keep the temporal stack (kernel size
 
 ##### Threshold sensitivity (Table Right)
 
-We further study the sensitivity of the volatility-driven gate to the initialization of its thresholds. Across three representative initialization schemes (narrow ramp, wide ramp, and ramp with small Gaussian noise), the final Top-1/Top-5 accuracy and power loss remain very close, and the learned thresholds stay ordered and monotone in depth. This indicates that the volatility-driven TCN is **robust to reasonable threshold initializations** and consistently outperforms the fixed receptive-field baseline.
+We further study the sensitivity of the volatility-driven gate to the initialization of its thresholds. Across three representative initialization schemes — **Init-A** (narrow linear ramp), **Init-B** (wider linear ramp), and **Init-C** (Init-A plus small Gaussian noise) — the final Top-1/Top-5 accuracy and power loss remain very close, and the learned thresholds stay ordered and monotone in depth. This indicates that the volatility-driven TCN is **robust to reasonable threshold initializations** and consistently outperforms the fixed receptive-field baseline.
 
 
 <p align="center">
