@@ -83,6 +83,13 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
   <em>Left: Temporal ablation on Task 2. &nbsp; Right: Sensitivity of threshold initialization on Task 2.</em>
 </p>
 
+### Temporal ablation (Table R6)
+
+To isolate the effect of the depth gate, we keep the temporal stack (kernel size, dilations, and number of layers) fixed and only change the receptive-field mechanism. Compared with the fixed receptive-field baseline, a fixed-depth gate brings only modest improvements in Top-1/Top-5 and power loss. In contrast, the proposed volatility-driven gate achieves clearly higher Top-1/Top-5 accuracy and lower power loss **with identical temporal complexity**, showing that conditioning the gate on motion volatility is substantially more effective than a static pattern.
+
+### Threshold sensitivity (Table R7)
+
+We further study the sensitivity of the volatility-driven gate to the initialization of its thresholds. Across three representative initialization schemes (narrow ramp, wide ramp, and ramp with small Gaussian noise), the final Top-1/Top-5 accuracy and power loss remain very close, and the learned thresholds stay ordered and monotone in depth. This indicates that the volatility-driven TCN is **robust to reasonable threshold initializations** and consistently outperforms the fixed receptive-field baseline.
 
 
 ### Why our combination is optimal？
