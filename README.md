@@ -106,7 +106,7 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 <p align="center">
   <img src="photos/KD.png" alt="KD" width="80%" />
   <br>
-  <em>Swin</em>
+  <em>KD</em>
 </p>
 
 ### Protocol
