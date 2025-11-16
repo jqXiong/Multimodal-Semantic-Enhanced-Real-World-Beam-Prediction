@@ -111,9 +111,10 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 
 ### Protocol
 ![Protocol](photos/Protocols.png)
-
-*Figure: MSET-Assisted Beam Search and Tracking Protocol.*
-
+<p align="center">
+  <img src="photos/Protocols" alt="Protocol." width="720"><br>
+  <em>*Figure: MSET-Assisted Beam Search and Tracking Protocol.*</em>
+</p>
 ---
 
 ## Code
