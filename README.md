@@ -22,6 +22,8 @@ MSET is a lightweight, efficient multimodal beam prediction framework tailored f
   <em>Figure: The TACA fusion module.</em>
 </p>
 
+---
+
 ### Setup
 
 Experiments are conducted on the DeepSense 6G dataset.
@@ -76,7 +78,7 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 </p>
 
 <p align="center">
-  <em>Left: Temporal ablation on Task 2. &nbsp;&nbsp;&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; Right: Sensitivity of threshold initialization on Task 2.</em>
+  <em>Left: Temporal ablation on Task 2.; Right: Sensitivity of threshold initialization on Task 2.</em>
 </p>
 
 
