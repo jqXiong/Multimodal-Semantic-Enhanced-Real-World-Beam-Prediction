@@ -101,7 +101,7 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
   <em>Mamba</em>
 </p>
 
-### Protocol
+### Knowledge distillation experiment
 
 <p align="center">
   <img src="photos/KD.png" alt="KD" width="80%" />
