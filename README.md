@@ -92,16 +92,14 @@ We further study the sensitivity of the volatility-driven gate to the initializa
   <br>
   <em>Right: Sensitivity of threshold initialization on Task 2.</em>
 </p>
-
-
-<p align="center">
+<!-- <p align="center">
   <img src="photos/TCN.jpg" alt="Results Table 3" width="400" />
   <img src="photos/TCN_x.jpg" alt="Results Table 4" width="400" />
 </p>
 
 <p align="center">
   <em>Left: Temporal ablation on Task 2. &nbsp; Right: Sensitivity of threshold initialization on Task 2.</em>
-</p>
+</p> -->
 
 ### Why our combination is optimal？
 **VFM ablation.**  
