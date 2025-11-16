@@ -76,7 +76,7 @@ Confusion matrices show that prediction errors are overwhelmingly concentrated o
 </p>
 
 <p align="center">
-  <em>Left: Temporal ablation on Task 2. &nbsp;&nbsp;&nbsp; Right: Sensitivity of threshold initialization on Task 2.</em>
+  <em>Left: Temporal ablation on Task 2. &nbsp;&nbsp;&nbsp&nbsp&nbsp&nbsp; Right: Sensitivity of threshold initialization on Task 2.</em>
 </p>
 
 
