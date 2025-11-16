@@ -1,4 +1,4 @@
-# Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models
+# MSET: Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models
 
 
 This is the official repository for the paper **"Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models"**.
@@ -10,11 +10,11 @@ This is the official repository for the paper **"Multimodal Semantic-Enhanced Re
 
 ### Framework Architecture
 
-Our model introduces a novel fusion module, knowledge transfer, and a foundation model to significantly improve performance over existing approaches. The architecture is built on a teacher-student design with dedicated modules for temporal modeling and multimodal fusion.
+MSET is a lightweight, efficient multimodal beam prediction framework tailored for real-world scenarios. It combines visual semantics, temporal modeling, and positional priors to achieve robust performance in complex and dynamic V2I environments.
 
 <p align="center">
   <img src="photos/MSETframework.png" alt="Detailed Framework Overview" width="720"><br>
-  <em>Figure: Overview of the proposed framework.</em>
+  <em>Figure: Overview of the proposed MSET framework.</em>
 </p>
 
 <p align="center">
